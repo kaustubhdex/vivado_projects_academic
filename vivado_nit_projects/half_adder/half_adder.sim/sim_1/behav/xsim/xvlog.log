@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/half_adder/rtl_srcs/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/half_adder/sim_srcs/tb_half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_half_adder

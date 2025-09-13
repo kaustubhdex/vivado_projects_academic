@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_project/vivado_nit_projects/gl_adders/gl_adders.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/vivado_nit_projects/gl_adders/gl_srcs/gl_full_adder.v,1757412662,verilog,,D:/vivado_project/vivado_nit_projects/gl_adders/gl_srcs/gl_half_adder.v,,gl_full_adder,,,,,,,,
+D:/vivado_project/vivado_nit_projects/gl_adders/gl_srcs/gl_half_adder.v,1757411886,verilog,,D:/vivado_project/vivado_nit_projects/gl_adders/sim_srcs/tb_gl_adders.v,,gl_half_adder,,,,,,,,
+D:/vivado_project/vivado_nit_projects/gl_adders/sim_srcs/tb_gl_adders.v,1757413632,verilog,,,,tb_gl_adders,,,,,,,,

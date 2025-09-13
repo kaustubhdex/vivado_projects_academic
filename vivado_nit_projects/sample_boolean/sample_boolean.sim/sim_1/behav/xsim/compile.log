@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/sample_boolean/sample_boolean.srcs/sources_1/new/sample_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sample_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/sample_boolean/sample_boolean.srcs/sim_1/new/tb_sample_boolean.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sample_boolean

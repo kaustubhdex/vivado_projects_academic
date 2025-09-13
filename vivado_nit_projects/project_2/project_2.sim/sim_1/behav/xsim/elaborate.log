@@ -1,0 +1,12 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 6c600eb650a7425aa0139d6b7eae6c23 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot newmod_behav xil_defaultlib.newmod xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 25 differs from formal bit length 24 for port 'mul_out' [D:/vivado_project/project_2/srcs/newmod.v:38]
+WARNING: [VRFC 10-3091] actual bit length 25 differs from formal bit length 24 for port 'mul_out' [D:/vivado_project/project_2/srcs/newmod.v:39]
+WARNING: [VRFC 10-3091] actual bit length 25 differs from formal bit length 24 for port 'mul_out' [D:/vivado_project/project_2/srcs/newmod.v:40]
+WARNING: [VRFC 10-3091] actual bit length 25 differs from formal bit length 24 for port 'a_in' [D:/vivado_project/project_2/srcs/newmod.v:42]
+WARNING: [VRFC 10-3091] actual bit length 25 differs from formal bit length 24 for port 'a_in' [D:/vivado_project/project_2/srcs/newmod.v:43]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

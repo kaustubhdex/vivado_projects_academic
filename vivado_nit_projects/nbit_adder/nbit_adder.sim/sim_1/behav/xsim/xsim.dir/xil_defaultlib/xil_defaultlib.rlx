@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_project/nbit_adder/nbit_adder.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/nbit_adder/nbit_adder.srcs/sim_1/imports/sim_srcs/tb_bit4_adder.v,1756290953,verilog,,,,tb_bit4_adder,,,,,,,,
+D:/vivado_project/nbit_adder/nbit_adder.srcs/sources_1/imports/rtl_srcs/adder.v,1756371416,verilog,,D:/vivado_project/nbit_adder/og_rtl_srcs/nbit_adder.v,,adder,,,,,,,,
+D:/vivado_project/nbit_adder/og_rtl_srcs/nbit_adder.v,1756369865,verilog,,D:/vivado_project/nbit_adder/nbit_adder.srcs/sim_1/imports/sim_srcs/tb_bit4_adder.v,,nbit_adder,,,,,,,,

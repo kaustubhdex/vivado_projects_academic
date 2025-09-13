@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/bit_4_adder/bit_4_adder.srcs/sources_1/imports/vivado_nit_projects/nbit_adder/nbit_adder.srcs/sources_1/imports/rtl_srcs/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/bit_4_adder/new_rtl_srcs/bit_4_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bit_4_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/bit_4_adder/bit_4_adder.srcs/sources_1/imports/vivado_nit_projects/half_adder/rtl_srcs/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/bit_4_adder/sim_srcs/tb_bit_4_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_bit_4_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/bit_4_adder/bit_4_adder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/practice_1/rtl_srcs/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/practice_1/rtl_srcs/bit4_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bit4_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/practice_1/sim_srcs/tb_bit4_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_bit4_adder

@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/multiplier_4bit/multiplier_4bit.srcs/sources_1/imports/vivado_nit_projects/practice_1/rtl_srcs/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/multiplier_4bit/rtl_srcs/adder_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/multiplier_4bit/multiplier_4bit.srcs/sources_1/imports/new_rtl_srcs/bit_4_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bit_4_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/multiplier_4bit/rtl_srcs/multiplier_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/multiplier_4bit/rtl_srcs/product_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module product_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/multiplier_4bit/sim_srcs/tb_multiplier_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_multiplier_4bit

@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_project/practice_1/practice_1.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/practice_1/rtl_srcs/adder.v,1756206225,verilog,,D:/vivado_project/practice_1/rtl_srcs/bit4_adder.v,,adder,,,,,,,,
+D:/vivado_project/practice_1/rtl_srcs/bit4_adder.v,1756287448,verilog,,D:/vivado_project/practice_1/sim_srcs/tb_bit4_adder.v,,bit4_adder,,,,,,,,
+D:/vivado_project/practice_1/sim_srcs/tb_adder.v,1756127337,verilog,,,,tb_adder,,,,,,,,
+D:/vivado_project/practice_1/sim_srcs/tb_bit4_adder.v,1756208692,verilog,,,,tb_bit4_adder,,,,,,,,

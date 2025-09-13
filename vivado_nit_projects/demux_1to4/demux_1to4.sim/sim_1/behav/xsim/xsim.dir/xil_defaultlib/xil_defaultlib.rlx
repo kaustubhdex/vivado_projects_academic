@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_project/demux_1to4/demux_1to4.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/demux_1to4/rtl_srcs/demux_1to4.v,1756983905,verilog,,D:/vivado_project/demux_1to4/rtl_srcs/demux_1to4_df.v,,demux_1to4,,,,,,,,
+D:/vivado_project/demux_1to4/rtl_srcs/demux_1to4_df.v,1756984785,verilog,,D:/vivado_project/demux_1to4/sim_srcs/tb_demux_1to4.v,,demux_1to4_df,,,,,,,,
+D:/vivado_project/demux_1to4/sim_srcs/tb_demux_1to4.v,1756984977,verilog,,,,tb_demux_1to4,,,,,,,,

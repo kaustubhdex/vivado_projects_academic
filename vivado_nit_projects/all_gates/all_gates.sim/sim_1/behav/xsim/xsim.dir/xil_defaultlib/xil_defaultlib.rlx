@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_project/all_gates/all_gates.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/all_gates/rtl_srcs/all_gates_top.v,1756374016,verilog,,D:/vivado_project/all_gates/rtl_srcs/and_gate.v,,all_gates_top,,,,,,,,
+D:/vivado_project/all_gates/rtl_srcs/and_gate.v,1756373015,verilog,,D:/vivado_project/all_gates/rtl_srcs/nand_gate.v,,and_gate,,,,,,,,
+D:/vivado_project/all_gates/rtl_srcs/nand_gate.v,1756373071,verilog,,D:/vivado_project/all_gates/rtl_srcs/nor_gate.v,,nand_gate,,,,,,,,
+D:/vivado_project/all_gates/rtl_srcs/nor_gate.v,1756373102,verilog,,D:/vivado_project/all_gates/rtl_srcs/not_gate.v,,nor_gate,,,,,,,,
+D:/vivado_project/all_gates/rtl_srcs/not_gate.v,1756373118,verilog,,D:/vivado_project/all_gates/rtl_srcs/or_gate.v,,not_gate,,,,,,,,
+D:/vivado_project/all_gates/rtl_srcs/or_gate.v,1756373155,verilog,,D:/vivado_project/all_gates/rtl_srcs/xnor_gate.v,,or_gate,,,,,,,,
+D:/vivado_project/all_gates/rtl_srcs/xnor_gate.v,1756373190,verilog,,D:/vivado_project/all_gates/rtl_srcs/xor_gate.v,,xnor_gate,,,,,,,,
+D:/vivado_project/all_gates/rtl_srcs/xor_gate.v,1756373251,verilog,,D:/vivado_project/all_gates/sim_srcs/tb_all_gates.v,,xor_gate,,,,,,,,
+D:/vivado_project/all_gates/sim_srcs/tb_all_gates.v,1756374632,verilog,,,,tb_all_gates,,,,,,,,

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/gl_4to2_decoder/gl_srcs/gl_4to2_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gl_4to2_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/gl_4to2_decoder/sim_srcs/tb_gl_4to2_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_gl_4to2_decoder

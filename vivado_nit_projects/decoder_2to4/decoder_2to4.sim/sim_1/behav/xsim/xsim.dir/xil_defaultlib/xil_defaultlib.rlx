@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_project/decoder_2to4/decoder_2to4.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/decoder_2to4/rtl_srcs/decoder_2to4_bh.v,1757240353,verilog,,D:/vivado_project/decoder_2to4/rtl_srcs/decoder_2to4_df.v,,decoder_2to4_bh,,,,,,,,
+D:/vivado_project/decoder_2to4/rtl_srcs/decoder_2to4_df.v,1757240067,verilog,,D:/vivado_project/decoder_2to4/sim_srcs/tb_decoder_2to4.v,,decoder_2to4_df,,,,,,,,
+D:/vivado_project/decoder_2to4/sim_srcs/tb_decoder_2to4.v,1757240460,verilog,,,,tb_decoder_2to4,,,,,,,,

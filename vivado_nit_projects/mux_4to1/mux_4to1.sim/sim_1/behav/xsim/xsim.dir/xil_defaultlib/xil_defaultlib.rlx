@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_project/mux_4to1/mux_4to1.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/mux_4to1/rtl_srcs/mux_4to1.v,1756906090,verilog,,D:/vivado_project/mux_4to1/sim_srcs/tb_mux_4to1.v,,mux_4to1,,,,,,,,
+D:/vivado_project/mux_4to1/rtl_srcs/mux_4to1_df.v,1756907086,verilog,,D:/vivado_project/mux_4to1/sim_srcs/tb_mux_4to1.v,,mux_4to1_df,,,,,,,,
+D:/vivado_project/mux_4to1/sim_srcs/tb_mux_4to1.v,1756907124,verilog,,,,tb_mux_4to1,,,,,,,,

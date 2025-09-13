@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../rtl_srcs/all_gates_top.v" \
+"../../../../rtl_srcs/and_gate.v" \
+"../../../../rtl_srcs/nand_gate.v" \
+"../../../../rtl_srcs/nor_gate.v" \
+"../../../../rtl_srcs/not_gate.v" \
+"../../../../rtl_srcs/or_gate.v" \
+"../../../../rtl_srcs/xnor_gate.v" \
+"../../../../rtl_srcs/xor_gate.v" \
+"../../../../sim_srcs/tb_all_gates.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

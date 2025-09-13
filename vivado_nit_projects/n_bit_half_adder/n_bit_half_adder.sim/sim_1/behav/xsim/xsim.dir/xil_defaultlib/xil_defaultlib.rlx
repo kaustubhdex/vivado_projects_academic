@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_project/vivado_nit_projects/n_bit_half_adder/n_bit_half_adder.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/vivado_nit_projects/n_bit_half_adder/n_bit_half_adder.srcs/sources_1/imports/vivado_project/half_adder/rtl_srcs/half_adder.v,1756647308,verilog,,D:/vivado_project/vivado_nit_projects/n_bit_half_adder/new_rtl_srcs/n_bit_half_adder_top.v,,half_adder,,,,,,,,
+D:/vivado_project/vivado_nit_projects/n_bit_half_adder/n_bit_half_adder.srcs/sources_1/imports/vivado_project/nbit_adder/nbit_adder.srcs/sources_1/imports/rtl_srcs/adder.v,1756371416,verilog,,D:/vivado_project/vivado_nit_projects/n_bit_half_adder/n_bit_half_adder.srcs/sources_1/imports/vivado_project/half_adder/rtl_srcs/half_adder.v,,adder,,,,,,,,
+D:/vivado_project/vivado_nit_projects/n_bit_half_adder/new_rtl_srcs/n_bit_half_adder_top.v,1757585711,verilog,,D:/vivado_project/vivado_nit_projects/n_bit_half_adder/new_sim_srcs/tb_n_bit_half_adder.v,,n_bit_half_adder_top,,,,,,,,
+D:/vivado_project/vivado_nit_projects/n_bit_half_adder/new_sim_srcs/tb_n_bit_half_adder.v,1756650747,verilog,,,,tb_n_bit_half_adder,,,,,,,,

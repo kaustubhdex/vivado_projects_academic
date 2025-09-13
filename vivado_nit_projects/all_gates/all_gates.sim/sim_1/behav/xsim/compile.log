@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/all_gates/rtl_srcs/all_gates_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module all_gates_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/all_gates/rtl_srcs/and_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/all_gates/rtl_srcs/nand_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nand_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/all_gates/rtl_srcs/nor_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/all_gates/rtl_srcs/not_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module not_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/all_gates/rtl_srcs/or_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/all_gates/rtl_srcs/xnor_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xnor_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/all_gates/rtl_srcs/xor_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/all_gates/sim_srcs/tb_all_gates.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_all_gates

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/gate_lvl_model/gl_srcs/gl_all_gates.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gl_all_gates
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/gate_lvl_model/sim_srcs/tb_gl_all_gates.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_gl_all_gates
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/gate_lvl_model/gate_lvl_model.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

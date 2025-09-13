@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../multiplier_4bit.srcs/sources_1/imports/vivado_nit_projects/practice_1/rtl_srcs/adder.v" \
+"../../../../rtl_srcs/adder_module.v" \
+"../../../../multiplier_4bit.srcs/sources_1/imports/new_rtl_srcs/bit_4_adder.v" \
+"../../../../rtl_srcs/multiplier_4bit.v" \
+"../../../../rtl_srcs/product_module.v" \
+"../../../../sim_srcs/tb_multiplier_4bit.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

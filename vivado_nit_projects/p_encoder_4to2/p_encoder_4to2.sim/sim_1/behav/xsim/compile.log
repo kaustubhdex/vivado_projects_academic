@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/p_encoder_4to2/rtl_srcs/p_encoder_4to2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module p_encoder_4to2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/p_encoder_4to2/p_encoder_4to2.srcs/sim_1/imports/new/tb_encoder_4to2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_encoder_4to2
