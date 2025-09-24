@@ -18,8 +18,8 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
+//Name: Pawar Kaustubh Vijay
+//Roll no: 25204121
 module bit_4_adder(
     input [3:0] a_in,
     input [3:0] b_in,

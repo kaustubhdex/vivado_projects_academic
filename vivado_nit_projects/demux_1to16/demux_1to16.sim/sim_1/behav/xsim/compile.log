@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/demux_1to16/new_rtl_srcs/demux_1to16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux_1to16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/demux_1to16/demux_1to16.srcs/sources_1/imports/rtl_srcs/demux_1to4_df.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux_1to4_df
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/demux_1to16/sim_srcs/tb_demux_1to16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_demux_1to16

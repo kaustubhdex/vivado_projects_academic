@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a50tcsg324-1" LaunchTime="1757765783">
   <File Type="PA-TCL" Name="multiplier_4bit.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="multiplier_4bit_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="multiplier_4bit_reports.tcl"/>
   <File Type="RDS-RDS" Name="multiplier_4bit.vds"/>
   <File Type="RDS-UTIL" Name="multiplier_4bit_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="multiplier_4bit_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="multiplier_4bit.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="multiplier_4bit_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="multiplier_4bit_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/vivado_nit_projects/practice_1/rtl_srcs/adder.v">

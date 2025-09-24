@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/dec_3to8/rtl_srcs/dec_3to8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dec_3to8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/dec_3to8/sim_srcs/tb_dec_3to8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_dec_3to8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/dec_3to8/dec_3to8.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

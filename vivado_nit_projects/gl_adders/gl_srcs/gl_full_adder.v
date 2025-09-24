@@ -18,8 +18,8 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
+// Name: Pawar Kaustubh Vijay
+// Roll no: 25204121
 module gl_full_adder(
     input a_in, b_in, c_in,
     output sum_out, cy_out

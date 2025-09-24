@@ -18,8 +18,8 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
+//Name: Pawar Kaustubh Vijay
+//Roll no: 25204121
 module tb_mux_4to1(
 
     );
@@ -27,8 +27,7 @@ module tb_mux_4to1(
     reg [3:0] test_a_in;
     reg [1:0] test_sel;
     wire test_mux_out;
-    
-    
+        
     mux_4to1_df tb1 (
     .a_in(test_a_in),
     .sel(test_sel),
@@ -36,11 +35,11 @@ module tb_mux_4to1(
     );
     
     initial
-        begin
-            test_a_in   = 4'b0000;
-            test_sel    = 2'b00;
-        end
-    
+    begin
+        test_a_in   = 4'b0000;
+        test_sel    = 2'b00;
+    end
+        
     always #5   test_a_in   = test_a_in + 4'b0001;
     always #200 test_sel    = test_sel + 2'b01;
     

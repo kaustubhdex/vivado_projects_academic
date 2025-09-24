@@ -18,8 +18,8 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
+//Name: Pawar Kaustubh Vijay
+//Roll no: 25204121
 module half_adder(
     input a_in,
     input b_in,

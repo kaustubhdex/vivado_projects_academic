@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: NITJ
+// Engineer: Pawar Kaustubh Vijay
 // 
 // Create Date: 09/09/2025 02:58:54 PM
 // Design Name: 
@@ -19,17 +19,16 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
-module gl_all_gates(in1, in2, and_out, nand_out, or_out, nor_out, xor_out, xnor_out);
-
+// Name: Pawar Kaustubh Vijay
+// Roll no: 25204121
+module gl_all_gates(in1, in2, out_not, out_and, out_nand, out_or, out_nor, out_xor, out_xnor);
     input in1, in2;
-    output and_out, nand_out, or_out, nor_out, xor_out, xnor_out;
-    
-    and     g1 (and_out, in1, in2);
-    nand    g2 (nand_out, in1, in2);
-    or      g3 (or_out, in1, in2);
-    nor     g4 (nor_out, in1, in2);
-    xor     g5 (xor_out, in1, in2);
-    xnor    g6 (xnor_out, in1, in2);
-    
+    output out_not, out_and, out_nand, out_or, out_nor, out_xor, out_xnor;
+    not_gate    inst0 (in1, out_not);
+    and_gate    inst1 (in1, in2, out_and);
+    or_gate     inst2 (in1, in2, out_or);
+    nand_gate   inst3 (in1, in2, out_nand);
+    nor_gate    inst4 (in1, in2, out_nor);
+    xor_gate    inst5 (in1, in2, out_xor);
+    xnor_gate   inst6 (in1, in2, out_xnor);
 endmodule

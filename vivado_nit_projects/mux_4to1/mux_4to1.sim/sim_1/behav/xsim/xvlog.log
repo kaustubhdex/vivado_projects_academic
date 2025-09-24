@@ -1,4 +1,6 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/mux_4to1/rtl_srcs/mux_4to1_df.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/mux_4to1/rtl_srcs/mux_4to1_df.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module mux_4to1_df
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/mux_4to1/sim_srcs/tb_mux_4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/mux_4to1/sim_srcs/tb_mux_4to1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_mux_4to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/mux_4to1/mux_4to1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

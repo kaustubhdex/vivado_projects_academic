@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_project/vivado_nit_projects/encoder_8to3/encoder_8to3.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/vivado_nit_projects/encoder_8to3/rtl_srcs/encoder_8to3.v,1758703544,verilog,,D:/vivado_project/vivado_nit_projects/encoder_8to3/rtl_srcs/encoder_8to3_df.v,,encoder_8to3,,,,,,,,
+D:/vivado_project/vivado_nit_projects/encoder_8to3/rtl_srcs/encoder_8to3_df.v,1758705055,verilog,,D:/vivado_project/vivado_nit_projects/encoder_8to3/sim_srcs/tb_encoder_8to3.v,,encoder_8to3_df,,,,,,,,
+D:/vivado_project/vivado_nit_projects/encoder_8to3/sim_srcs/tb_encoder_8to3.v,1758704935,verilog,,,,tb_encoder_8to3,,,,,,,,

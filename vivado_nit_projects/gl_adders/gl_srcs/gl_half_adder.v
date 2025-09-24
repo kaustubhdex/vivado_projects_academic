@@ -18,8 +18,8 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
+// Name: Pawar Kaustubh Vijay
+// Roll no: 25204121
 module gl_half_adder(
     input a_in, b_in,
     output sum_out, cy_out
@@ -27,4 +27,5 @@ module gl_half_adder(
     
     xor (sum_out, a_in, b_in);
     and (cy_out, a_in, b_in);
+    
 endmodule

@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: NITJ
+// Engineer: Pawar Kaustubh Vijay
 // 
 // Create Date: 09/09/2025 03:06:48 PM
 // Design Name: 
@@ -18,24 +18,26 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
+// Name: Pawar Kaustubh Vijay
+// Roll no: 25204121
 
 module tb_gl_all_gates(
 
     );
     
     reg test_in1, test_in2;
-    wire test_and, test_nand, test_or, test_nor, test_xor, test_xnor;
+    wire test_not, test_and, test_nand, test_or, test_nor, test_xor, test_xnor;
     
     gl_all_gates inst1 (
         .in1(test_in1),
         .in2(test_in2),
-        .and_out(test_and),
-        .nand_out(test_nand),
-        .or_out(test_or),
-        .nor_out(test_nor),
-        .xor_out(test_xor),
-        .xnor_out(test_xnor)
+        .out_not(test_not),
+        .out_and(test_and),
+        .out_nand(test_nand),
+        .out_or(test_or),
+        .out_nor(test_nor),
+        .out_xor(test_xor),
+        .out_xnor(test_xnor)
         );
         
     initial

@@ -18,8 +18,8 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
+//Name: Pawar Kaustubh Vijay
+//Roll no: 25204121
 module mux_4to1_df(
     input [3:0] a_in,
     input [1:0] sel,
@@ -31,6 +31,5 @@ module mux_4to1_df(
     assign prod1 = (sel[0] && ~sel[1] && a_in[1]);
     assign prod2 = (~sel[0] && sel[1] && a_in[2]);
     assign prod3 = (sel[0] && sel[1] && a_in[3]);
-    
     assign mux_out = (prod0 || prod1 || prod2 || prod3);
 endmodule

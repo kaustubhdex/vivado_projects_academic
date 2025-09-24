@@ -18,15 +18,13 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
+//Name: Pawar Kaustubh Vijay
+//Roll no: 25204121
 module mux_4to1(
     input [3:0] a_in,
     input [1:0] sel,
     output reg mux_out
     );
-    
-    
    always @(sel, a_in)
       case (sel)
          2'b00: mux_out = a_in[0];
