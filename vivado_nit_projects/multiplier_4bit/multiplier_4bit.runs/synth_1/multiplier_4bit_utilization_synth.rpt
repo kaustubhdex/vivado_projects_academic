@@ -1,11 +1,11 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Sat Sep 13 17:46:53 2025
+| Date         : Wed Oct 29 14:31:34 2025
 | Host         : Kaustubh-Galaxy-Book running 64-bit major release  (build 9200)
 | Command      : report_utilization -file multiplier_4bit_utilization_synth.rpt -pb multiplier_4bit_utilization_synth.pb
 | Design       : multiplier_4bit
-| Device       : xc7a50tcsg324-1
+| Device       : xc7a35tcpg236-1
 | Speed File   : -1
 | Design State : Synthesized
 -------------------------------------------------------------------------------------------------------------------------
@@ -31,12 +31,12 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*             |   15 |     0 |          0 |     32600 |  0.05 |
-|   LUT as Logic          |   15 |     0 |          0 |     32600 |  0.05 |
+| Slice LUTs*             |   15 |     0 |          0 |     20800 |  0.07 |
+|   LUT as Logic          |   15 |     0 |          0 |     20800 |  0.07 |
 |   LUT as Memory         |    0 |     0 |          0 |      9600 |  0.00 |
-| Slice Registers         |    0 |     0 |          0 |     65200 |  0.00 |
-|   Register as Flip Flop |    0 |     0 |          0 |     65200 |  0.00 |
-|   Register as Latch     |    0 |     0 |          0 |     65200 |  0.00 |
+| Slice Registers         |    0 |     0 |          0 |     41600 |  0.00 |
+|   Register as Flip Flop |    0 |     0 |          0 |     41600 |  0.00 |
+|   Register as Latch     |    0 |     0 |          0 |     41600 |  0.00 |
 | F7 Muxes                |    0 |     0 |          0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |          0 |      8150 |  0.00 |
 +-------------------------+------+-------+------------+-----------+-------+
@@ -69,9 +69,9 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------------+------+-------+------------+-----------+-------+
 |    Site Type   | Used | Fixed | Prohibited | Available | Util% |
 +----------------+------+-------+------------+-----------+-------+
-| Block RAM Tile |    0 |     0 |          0 |        75 |  0.00 |
-|   RAMB36/FIFO* |    0 |     0 |          0 |        75 |  0.00 |
-|   RAMB18       |    0 |     0 |          0 |       150 |  0.00 |
+| Block RAM Tile |    0 |     0 |          0 |        50 |  0.00 |
+|   RAMB36/FIFO* |    0 |     0 |          0 |        50 |  0.00 |
+|   RAMB18       |    0 |     0 |          0 |       100 |  0.00 |
 +----------------+------+-------+------------+-----------+-------+
 * Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
 
@@ -82,7 +82,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 +-----------+------+-------+------------+-----------+-------+
 | Site Type | Used | Fixed | Prohibited | Available | Util% |
 +-----------+------+-------+------------+-----------+-------+
-| DSPs      |    0 |     0 |          0 |       120 |  0.00 |
+| DSPs      |    0 |     0 |          0 |        90 |  0.00 |
 +-----------+------+-------+------------+-----------+-------+
 
 
@@ -92,19 +92,22 @@ Warning! LUT value is adjusted to account for LUT combining.
 +-----------------------------+------+-------+------------+-----------+-------+
 |          Site Type          | Used | Fixed | Prohibited | Available | Util% |
 +-----------------------------+------+-------+------------+-----------+-------+
-| Bonded IOB                  |   16 |     0 |          0 |       210 |  7.62 |
-| Bonded IPADs                |    0 |     0 |          0 |         2 |  0.00 |
+| Bonded IOB                  |   16 |     0 |          0 |       106 | 15.09 |
+| Bonded IPADs                |    0 |     0 |          0 |        10 |  0.00 |
+| Bonded OPADs                |    0 |     0 |          0 |         4 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         5 |  0.00 |
 | PHASER_REF                  |    0 |     0 |          0 |         5 |  0.00 |
 | OUT_FIFO                    |    0 |     0 |          0 |        20 |  0.00 |
 | IN_FIFO                     |    0 |     0 |          0 |        20 |  0.00 |
 | IDELAYCTRL                  |    0 |     0 |          0 |         5 |  0.00 |
-| IBUFDS                      |    0 |     0 |          0 |       202 |  0.00 |
+| IBUFDS                      |    0 |     0 |          0 |       104 |  0.00 |
+| GTPE2_CHANNEL               |    0 |     0 |          0 |         2 |  0.00 |
 | PHASER_OUT/PHASER_OUT_PHY   |    0 |     0 |          0 |        20 |  0.00 |
 | PHASER_IN/PHASER_IN_PHY     |    0 |     0 |          0 |        20 |  0.00 |
 | IDELAYE2/IDELAYE2_FINEDELAY |    0 |     0 |          0 |       250 |  0.00 |
-| ILOGIC                      |    0 |     0 |          0 |       210 |  0.00 |
-| OLOGIC                      |    0 |     0 |          0 |       210 |  0.00 |
+| IBUFDS_GTE2                 |    0 |     0 |          0 |         2 |  0.00 |
+| ILOGIC                      |    0 |     0 |          0 |       106 |  0.00 |
+| OLOGIC                      |    0 |     0 |          0 |       106 |  0.00 |
 +-----------------------------+------+-------+------------+-----------+-------+
 
 

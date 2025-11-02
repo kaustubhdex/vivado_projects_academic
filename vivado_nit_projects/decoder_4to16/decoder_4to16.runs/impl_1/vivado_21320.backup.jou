@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Oct 29 15:04:18 2025
+# Process ID: 21320
+# Current directory: D:/vivado_project/vivado_nit_projects/decoder_4to16/decoder_4to16.runs/impl_1
+# Command line: vivado.exe -log decoder_4to16.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder_4to16.tcl -notrace
+# Log file: D:/vivado_project/vivado_nit_projects/decoder_4to16/decoder_4to16.runs/impl_1/decoder_4to16.vdi
+# Journal file: D:/vivado_project/vivado_nit_projects/decoder_4to16/decoder_4to16.runs/impl_1\vivado.jou
+# Running On: Kaustubh-Galaxy-Book, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16847 MB
+#-----------------------------------------------------------
+source decoder_4to16.tcl -notrace

@@ -70,11 +70,10 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
+set_param chipscope.maxJobs 3
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
-create_project -in_memory -part xc7a50tcsg324-1
+create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
@@ -103,11 +102,16 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc D:/vivado_project/vivado_nit_projects/multiplier_4bit/multiplier_4bit.srcs/constrs_1/new/basys_3.xdc
+set_property used_in_implementation false [get_files D:/vivado_project/vivado_nit_projects/multiplier_4bit/multiplier_4bit.srcs/constrs_1/new/basys_3.xdc]
+
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental D:/vivado_project/vivado_nit_projects/multiplier_4bit/multiplier_4bit.srcs/utils_1/imports/synth_1/multiplier_4bit.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top multiplier_4bit -part xc7a50tcsg324-1
+synth_design -top multiplier_4bit -part xc7a35tcpg236-1
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"

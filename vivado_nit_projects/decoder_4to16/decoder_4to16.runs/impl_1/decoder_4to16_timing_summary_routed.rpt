@@ -1,0 +1,684 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Oct 29 15:04:55 2025
+| Host         : Kaustubh-Galaxy-Book running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -max_paths 10 -report_unconstrained -file decoder_4to16_timing_summary_routed.rpt -pb decoder_4to16_timing_summary_routed.pb -rpx decoder_4to16_timing_summary_routed.rpx -warn_on_violation
+| Design       : decoder_4to16
+| Device       : 7a35t-cpg236
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+No report available as report_methodology has not been run prior. Run report_methodology on the current design for the summary of methodology violations.
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (0)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (0)
+5. checking no_input_delay (0)
+6. checking no_output_delay (0)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (0)
+------------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (0)
+------------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (0)
+------------------------------
+ There are 0 input ports with no input delay specified.
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (0)
+-------------------------------
+ There are 0 ports with no output delay specified.
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+        inf        0.000                      0                   16          inf        0.000                      0                   16           NA           NA                      NA                    NA  
+
+
+There are no user specified timing constraints.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| User Ignored Path Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock    
+----------    ----------    --------    
+
+
+------------------------------------------------------------------------------------------------
+| Unconstrained Path Table
+| ------------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock    
+----------    ----------    --------    
+(none)                                    
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  
+  To Clock:  
+
+Max Delay            16 Endpoints
+Min Delay            16 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 in_decoder_4to16[3]
+                            (input port)
+  Destination:            out_decoder_4to16[15]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        13.036ns  (logic 5.344ns (40.993%)  route 7.692ns (59.007%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    W17                                               0.000     0.000 r  in_decoder_4to16[3] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[3]
+    W17                  IBUF (Prop_ibuf_I_O)         1.448     1.448 r  in_decoder_4to16_IBUF[3]_inst/O
+                         net (fo=16, routed)          4.047     5.496    in_decoder_4to16_IBUF[3]
+    SLICE_X64Y31         LUT4 (Prop_lut4_I0_O)        0.150     5.646 r  out_decoder_4to16_OBUF[15]_inst_i_1/O
+                         net (fo=1, routed)           3.645     9.291    out_decoder_4to16_OBUF[15]
+    L1                   OBUF (Prop_obuf_I_O)         3.745    13.036 r  out_decoder_4to16_OBUF[15]_inst/O
+                         net (fo=0)                   0.000    13.036    out_decoder_4to16[15]
+    L1                                                                r  out_decoder_4to16[15] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[3]
+                            (input port)
+  Destination:            out_decoder_4to16[12]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        12.821ns  (logic 5.317ns (41.468%)  route 7.504ns (58.532%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    W17                                               0.000     0.000 r  in_decoder_4to16[3] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[3]
+    W17                  IBUF (Prop_ibuf_I_O)         1.448     1.448 r  in_decoder_4to16_IBUF[3]_inst/O
+                         net (fo=16, routed)          4.259     5.708    in_decoder_4to16_IBUF[3]
+    SLICE_X64Y31         LUT4 (Prop_lut4_I0_O)        0.146     5.854 r  out_decoder_4to16_OBUF[12]_inst_i_1/O
+                         net (fo=1, routed)           3.245     9.099    out_decoder_4to16_OBUF[12]
+    P3                   OBUF (Prop_obuf_I_O)         3.722    12.821 r  out_decoder_4to16_OBUF[12]_inst/O
+                         net (fo=0)                   0.000    12.821    out_decoder_4to16[12]
+    P3                                                                r  out_decoder_4to16[12] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[3]
+                            (input port)
+  Destination:            out_decoder_4to16[13]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        12.447ns  (logic 5.080ns (40.810%)  route 7.368ns (59.190%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    W17                                               0.000     0.000 r  in_decoder_4to16[3] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[3]
+    W17                  IBUF (Prop_ibuf_I_O)         1.448     1.448 r  in_decoder_4to16_IBUF[3]_inst/O
+                         net (fo=16, routed)          4.070     5.518    in_decoder_4to16_IBUF[3]
+    SLICE_X64Y31         LUT4 (Prop_lut4_I0_O)        0.124     5.642 r  out_decoder_4to16_OBUF[13]_inst_i_1/O
+                         net (fo=1, routed)           3.298     8.940    out_decoder_4to16_OBUF[13]
+    N3                   OBUF (Prop_obuf_I_O)         3.507    12.447 r  out_decoder_4to16_OBUF[13]_inst/O
+                         net (fo=0)                   0.000    12.447    out_decoder_4to16[13]
+    N3                                                                r  out_decoder_4to16[13] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[0]
+                            (input port)
+  Destination:            out_decoder_4to16[14]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        12.059ns  (logic 5.328ns (44.186%)  route 6.731ns (55.814%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V17                                               0.000     0.000 f  in_decoder_4to16[0] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[0]
+    V17                  IBUF (Prop_ibuf_I_O)         1.453     1.453 f  in_decoder_4to16_IBUF[0]_inst/O
+                         net (fo=16, routed)          4.037     5.490    in_decoder_4to16_IBUF[0]
+    SLICE_X64Y31         LUT4 (Prop_lut4_I2_O)        0.153     5.643 r  out_decoder_4to16_OBUF[14]_inst_i_1/O
+                         net (fo=1, routed)           2.693     8.336    out_decoder_4to16_OBUF[14]
+    P1                   OBUF (Prop_obuf_I_O)         3.722    12.059 r  out_decoder_4to16_OBUF[14]_inst/O
+                         net (fo=0)                   0.000    12.059    out_decoder_4to16[14]
+    P1                                                                r  out_decoder_4to16[14] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[3]
+                            (input port)
+  Destination:            out_decoder_4to16[9]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        11.260ns  (logic 5.307ns (47.128%)  route 5.954ns (52.872%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    W17                                               0.000     0.000 r  in_decoder_4to16[3] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[3]
+    W17                  IBUF (Prop_ibuf_I_O)         1.448     1.448 r  in_decoder_4to16_IBUF[3]_inst/O
+                         net (fo=16, routed)          2.302     3.751    in_decoder_4to16_IBUF[3]
+    SLICE_X14Y17         LUT4 (Prop_lut4_I0_O)        0.146     3.897 r  out_decoder_4to16_OBUF[9]_inst_i_1/O
+                         net (fo=1, routed)           3.651     7.548    out_decoder_4to16_OBUF[9]
+    V3                   OBUF (Prop_obuf_I_O)         3.712    11.260 r  out_decoder_4to16_OBUF[9]_inst/O
+                         net (fo=0)                   0.000    11.260    out_decoder_4to16[9]
+    V3                                                                r  out_decoder_4to16[9] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[3]
+                            (input port)
+  Destination:            out_decoder_4to16[10]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        11.218ns  (logic 5.098ns (45.442%)  route 6.120ns (54.558%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    W17                                               0.000     0.000 r  in_decoder_4to16[3] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[3]
+    W17                  IBUF (Prop_ibuf_I_O)         1.448     1.448 r  in_decoder_4to16_IBUF[3]_inst/O
+                         net (fo=16, routed)          4.259     5.708    in_decoder_4to16_IBUF[3]
+    SLICE_X64Y31         LUT4 (Prop_lut4_I0_O)        0.124     5.832 r  out_decoder_4to16_OBUF[10]_inst_i_1/O
+                         net (fo=1, routed)           1.861     7.693    out_decoder_4to16_OBUF[10]
+    W3                   OBUF (Prop_obuf_I_O)         3.525    11.218 r  out_decoder_4to16_OBUF[10]_inst/O
+                         net (fo=0)                   0.000    11.218    out_decoder_4to16[10]
+    W3                                                                r  out_decoder_4to16[10] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[3]
+                            (input port)
+  Destination:            out_decoder_4to16[11]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        10.791ns  (logic 5.076ns (47.042%)  route 5.715ns (52.958%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    W17                                               0.000     0.000 r  in_decoder_4to16[3] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[3]
+    W17                  IBUF (Prop_ibuf_I_O)         1.448     1.448 r  in_decoder_4to16_IBUF[3]_inst/O
+                         net (fo=16, routed)          4.047     5.496    in_decoder_4to16_IBUF[3]
+    SLICE_X64Y31         LUT4 (Prop_lut4_I0_O)        0.124     5.620 r  out_decoder_4to16_OBUF[11]_inst_i_1/O
+                         net (fo=1, routed)           1.668     7.287    out_decoder_4to16_OBUF[11]
+    U3                   OBUF (Prop_obuf_I_O)         3.504    10.791 r  out_decoder_4to16_OBUF[11]_inst/O
+                         net (fo=0)                   0.000    10.791    out_decoder_4to16[11]
+    U3                                                                r  out_decoder_4to16[11] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[3]
+                            (input port)
+  Destination:            out_decoder_4to16[8]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        9.927ns  (logic 5.077ns (51.140%)  route 4.850ns (48.860%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    W17                                               0.000     0.000 r  in_decoder_4to16[3] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[3]
+    W17                  IBUF (Prop_ibuf_I_O)         1.448     1.448 r  in_decoder_4to16_IBUF[3]_inst/O
+                         net (fo=16, routed)          2.302     3.751    in_decoder_4to16_IBUF[3]
+    SLICE_X14Y17         LUT4 (Prop_lut4_I0_O)        0.124     3.875 r  out_decoder_4to16_OBUF[8]_inst_i_1/O
+                         net (fo=1, routed)           2.548     6.423    out_decoder_4to16_OBUF[8]
+    V13                  OBUF (Prop_obuf_I_O)         3.504     9.927 r  out_decoder_4to16_OBUF[8]_inst/O
+                         net (fo=0)                   0.000     9.927    out_decoder_4to16[8]
+    V13                                                               r  out_decoder_4to16[8] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[3]
+                            (input port)
+  Destination:            out_decoder_4to16[1]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        9.679ns  (logic 5.102ns (52.717%)  route 4.576ns (47.283%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    W17                                               0.000     0.000 f  in_decoder_4to16[3] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[3]
+    W17                  IBUF (Prop_ibuf_I_O)         1.448     1.448 f  in_decoder_4to16_IBUF[3]_inst/O
+                         net (fo=16, routed)          1.938     3.387    in_decoder_4to16_IBUF[3]
+    SLICE_X0Y17          LUT4 (Prop_lut4_I3_O)        0.124     3.511 r  out_decoder_4to16_OBUF[1]_inst_i_1/O
+                         net (fo=1, routed)           2.638     6.149    out_decoder_4to16_OBUF[1]
+    E19                  OBUF (Prop_obuf_I_O)         3.530     9.679 r  out_decoder_4to16_OBUF[1]_inst/O
+                         net (fo=0)                   0.000     9.679    out_decoder_4to16[1]
+    E19                                                               r  out_decoder_4to16[1] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[3]
+                            (input port)
+  Destination:            out_decoder_4to16[7]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        9.377ns  (logic 5.309ns (56.620%)  route 4.068ns (43.380%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    W17                                               0.000     0.000 f  in_decoder_4to16[3] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[3]
+    W17                  IBUF (Prop_ibuf_I_O)         1.448     1.448 f  in_decoder_4to16_IBUF[3]_inst/O
+                         net (fo=16, routed)          1.931     3.380    in_decoder_4to16_IBUF[3]
+    SLICE_X0Y17          LUT4 (Prop_lut4_I3_O)        0.152     3.532 r  out_decoder_4to16_OBUF[7]_inst_i_1/O
+                         net (fo=1, routed)           2.137     5.668    out_decoder_4to16_OBUF[7]
+    V14                  OBUF (Prop_obuf_I_O)         3.709     9.377 r  out_decoder_4to16_OBUF[7]_inst/O
+                         net (fo=0)                   0.000     9.377    out_decoder_4to16[7]
+    V14                                                               r  out_decoder_4to16[7] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 in_decoder_4to16[0]
+                            (input port)
+  Destination:            out_decoder_4to16[3]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        2.290ns  (logic 1.476ns (64.467%)  route 0.814ns (35.533%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V17                                               0.000     0.000 r  in_decoder_4to16[0] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[0]
+    V17                  IBUF (Prop_ibuf_I_O)         0.221     0.221 r  in_decoder_4to16_IBUF[0]_inst/O
+                         net (fo=16, routed)          0.471     0.692    in_decoder_4to16_IBUF[0]
+    SLICE_X0Y17          LUT4 (Prop_lut4_I2_O)        0.045     0.737 r  out_decoder_4to16_OBUF[3]_inst_i_1/O
+                         net (fo=1, routed)           0.342     1.080    out_decoder_4to16_OBUF[3]
+    V19                  OBUF (Prop_obuf_I_O)         1.210     2.290 r  out_decoder_4to16_OBUF[3]_inst/O
+                         net (fo=0)                   0.000     2.290    out_decoder_4to16[3]
+    V19                                                               r  out_decoder_4to16[3] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[0]
+                            (input port)
+  Destination:            out_decoder_4to16[2]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        2.308ns  (logic 1.468ns (63.605%)  route 0.840ns (36.395%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V17                                               0.000     0.000 f  in_decoder_4to16[0] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[0]
+    V17                  IBUF (Prop_ibuf_I_O)         0.221     0.221 f  in_decoder_4to16_IBUF[0]_inst/O
+                         net (fo=16, routed)          0.498     0.719    in_decoder_4to16_IBUF[0]
+    SLICE_X0Y18          LUT4 (Prop_lut4_I2_O)        0.045     0.764 r  out_decoder_4to16_OBUF[2]_inst_i_1/O
+                         net (fo=1, routed)           0.342     1.106    out_decoder_4to16_OBUF[2]
+    U19                  OBUF (Prop_obuf_I_O)         1.202     2.308 r  out_decoder_4to16_OBUF[2]_inst/O
+                         net (fo=0)                   0.000     2.308    out_decoder_4to16[2]
+    U19                                                               r  out_decoder_4to16[2] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[1]
+                            (input port)
+  Destination:            out_decoder_4to16[5]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        2.316ns  (logic 1.490ns (64.322%)  route 0.826ns (35.678%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V16                                               0.000     0.000 f  in_decoder_4to16[1] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[1]
+    V16                  IBUF (Prop_ibuf_I_O)         0.229     0.229 f  in_decoder_4to16_IBUF[1]_inst/O
+                         net (fo=16, routed)          0.405     0.635    in_decoder_4to16_IBUF[1]
+    SLICE_X0Y11          LUT4 (Prop_lut4_I1_O)        0.045     0.680 r  out_decoder_4to16_OBUF[5]_inst_i_1/O
+                         net (fo=1, routed)           0.421     1.101    out_decoder_4to16_OBUF[5]
+    U15                  OBUF (Prop_obuf_I_O)         1.216     2.316 r  out_decoder_4to16_OBUF[5]_inst/O
+                         net (fo=0)                   0.000     2.316    out_decoder_4to16[5]
+    U15                                                               r  out_decoder_4to16[5] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[0]
+                            (input port)
+  Destination:            out_decoder_4to16[4]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        2.375ns  (logic 1.541ns (64.883%)  route 0.834ns (35.117%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V17                                               0.000     0.000 f  in_decoder_4to16[0] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[0]
+    V17                  IBUF (Prop_ibuf_I_O)         0.221     0.221 f  in_decoder_4to16_IBUF[0]_inst/O
+                         net (fo=16, routed)          0.498     0.719    in_decoder_4to16_IBUF[0]
+    SLICE_X0Y18          LUT4 (Prop_lut4_I1_O)        0.048     0.767 r  out_decoder_4to16_OBUF[4]_inst_i_1/O
+                         net (fo=1, routed)           0.336     1.103    out_decoder_4to16_OBUF[4]
+    W18                  OBUF (Prop_obuf_I_O)         1.272     2.375 r  out_decoder_4to16_OBUF[4]_inst/O
+                         net (fo=0)                   0.000     2.375    out_decoder_4to16[4]
+    W18                                                               r  out_decoder_4to16[4] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[1]
+                            (input port)
+  Destination:            out_decoder_4to16[6]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        2.412ns  (logic 1.547ns (64.111%)  route 0.866ns (35.889%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V16                                               0.000     0.000 r  in_decoder_4to16[1] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[1]
+    V16                  IBUF (Prop_ibuf_I_O)         0.229     0.229 r  in_decoder_4to16_IBUF[1]_inst/O
+                         net (fo=16, routed)          0.405     0.635    in_decoder_4to16_IBUF[1]
+    SLICE_X0Y11          LUT4 (Prop_lut4_I0_O)        0.048     0.683 r  out_decoder_4to16_OBUF[6]_inst_i_1/O
+                         net (fo=1, routed)           0.460     1.143    out_decoder_4to16_OBUF[6]
+    U14                  OBUF (Prop_obuf_I_O)         1.269     2.412 r  out_decoder_4to16_OBUF[6]_inst/O
+                         net (fo=0)                   0.000     2.412    out_decoder_4to16[6]
+    U14                                                               r  out_decoder_4to16[6] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[0]
+                            (input port)
+  Destination:            out_decoder_4to16[0]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        2.536ns  (logic 1.537ns (60.606%)  route 0.999ns (39.394%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V17                                               0.000     0.000 f  in_decoder_4to16[0] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[0]
+    V17                  IBUF (Prop_ibuf_I_O)         0.221     0.221 f  in_decoder_4to16_IBUF[0]_inst/O
+                         net (fo=16, routed)          0.470     0.691    in_decoder_4to16_IBUF[0]
+    SLICE_X0Y17          LUT4 (Prop_lut4_I2_O)        0.048     0.739 r  out_decoder_4to16_OBUF[0]_inst_i_1/O
+                         net (fo=1, routed)           0.529     1.268    out_decoder_4to16_OBUF[0]
+    U16                  OBUF (Prop_obuf_I_O)         1.268     2.536 r  out_decoder_4to16_OBUF[0]_inst/O
+                         net (fo=0)                   0.000     2.536    out_decoder_4to16[0]
+    U16                                                               r  out_decoder_4to16[0] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[0]
+                            (input port)
+  Destination:            out_decoder_4to16[7]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        2.553ns  (logic 1.539ns (60.264%)  route 1.015ns (39.736%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V17                                               0.000     0.000 r  in_decoder_4to16[0] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[0]
+    V17                  IBUF (Prop_ibuf_I_O)         0.221     0.221 r  in_decoder_4to16_IBUF[0]_inst/O
+                         net (fo=16, routed)          0.471     0.692    in_decoder_4to16_IBUF[0]
+    SLICE_X0Y17          LUT4 (Prop_lut4_I1_O)        0.049     0.741 r  out_decoder_4to16_OBUF[7]_inst_i_1/O
+                         net (fo=1, routed)           0.544     1.285    out_decoder_4to16_OBUF[7]
+    V14                  OBUF (Prop_obuf_I_O)         1.269     2.553 r  out_decoder_4to16_OBUF[7]_inst/O
+                         net (fo=0)                   0.000     2.553    out_decoder_4to16[7]
+    V14                                                               r  out_decoder_4to16[7] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[0]
+                            (input port)
+  Destination:            out_decoder_4to16[1]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        2.744ns  (logic 1.497ns (54.545%)  route 1.247ns (45.455%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V17                                               0.000     0.000 r  in_decoder_4to16[0] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[0]
+    V17                  IBUF (Prop_ibuf_I_O)         0.221     0.221 r  in_decoder_4to16_IBUF[0]_inst/O
+                         net (fo=16, routed)          0.470     0.691    in_decoder_4to16_IBUF[0]
+    SLICE_X0Y17          LUT4 (Prop_lut4_I1_O)        0.045     0.736 r  out_decoder_4to16_OBUF[1]_inst_i_1/O
+                         net (fo=1, routed)           0.777     1.513    out_decoder_4to16_OBUF[1]
+    E19                  OBUF (Prop_obuf_I_O)         1.231     2.744 r  out_decoder_4to16_OBUF[1]_inst/O
+                         net (fo=0)                   0.000     2.744    out_decoder_4to16[1]
+    E19                                                               r  out_decoder_4to16[1] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[0]
+                            (input port)
+  Destination:            out_decoder_4to16[8]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        3.015ns  (logic 1.471ns (48.792%)  route 1.544ns (51.208%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V17                                               0.000     0.000 f  in_decoder_4to16[0] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[0]
+    V17                  IBUF (Prop_ibuf_I_O)         0.221     0.221 f  in_decoder_4to16_IBUF[0]_inst/O
+                         net (fo=16, routed)          0.801     1.022    in_decoder_4to16_IBUF[0]
+    SLICE_X14Y17         LUT4 (Prop_lut4_I3_O)        0.045     1.067 r  out_decoder_4to16_OBUF[8]_inst_i_1/O
+                         net (fo=1, routed)           0.743     1.810    out_decoder_4to16_OBUF[8]
+    V13                  OBUF (Prop_obuf_I_O)         1.205     3.015 r  out_decoder_4to16_OBUF[8]_inst/O
+                         net (fo=0)                   0.000     3.015    out_decoder_4to16[8]
+    V13                                                               r  out_decoder_4to16[8] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 in_decoder_4to16[1]
+                            (input port)
+  Destination:            out_decoder_4to16[11]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        3.483ns  (logic 1.479ns (42.475%)  route 2.003ns (57.525%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    V16                                               0.000     0.000 r  in_decoder_4to16[1] (IN)
+                         net (fo=0)                   0.000     0.000    in_decoder_4to16[1]
+    V16                  IBUF (Prop_ibuf_I_O)         0.229     0.229 r  in_decoder_4to16_IBUF[1]_inst/O
+                         net (fo=16, routed)          1.667     1.896    in_decoder_4to16_IBUF[1]
+    SLICE_X64Y31         LUT4 (Prop_lut4_I2_O)        0.045     1.941 r  out_decoder_4to16_OBUF[11]_inst_i_1/O
+                         net (fo=1, routed)           0.337     2.278    out_decoder_4to16_OBUF[11]
+    U3                   OBUF (Prop_obuf_I_O)         1.205     3.483 r  out_decoder_4to16_OBUF[11]_inst/O
+                         net (fo=0)                   0.000     3.483    out_decoder_4to16[11]
+    U3                                                                r  out_decoder_4to16[11] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+

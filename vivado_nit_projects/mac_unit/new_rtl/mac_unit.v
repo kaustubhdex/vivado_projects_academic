@@ -21,9 +21,9 @@
 
 
 module mac_unit(
-    input [12:0] a_in_mac, b_in_mac,
+    input [11:0] a_in_mac, b_in_mac,
     input clk,rst,ld_mac,
-    output [24:0] out_mac
+    output [23:0] out_mac
     );
     wire [23:0] w_multoadd, w_addtoacc, w_ret_add;
     

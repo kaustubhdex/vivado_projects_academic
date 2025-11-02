@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_PISO_dreg_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_PISO_dreg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="264.833 ns"></ZoomStartTime>
+      <ZoomEndTime time="280.634 ns"></ZoomEndTime>
+      <Cursor1Time time="278.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_PISO_dreg/tb_clk" type="logic">
+      <obj_property name="ElementShortName">tb_clk</obj_property>
+      <obj_property name="ObjectShortName">tb_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PISO_dreg/tb_rst" type="logic">
+      <obj_property name="ElementShortName">tb_rst</obj_property>
+      <obj_property name="ObjectShortName">tb_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PISO_dreg/tb_in_PISO_dreg" type="array">
+      <obj_property name="ElementShortName">tb_in_PISO_dreg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_in_PISO_dreg[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PISO_dreg/tb_out_PISO_dreg" type="logic">
+      <obj_property name="ElementShortName">tb_out_PISO_dreg</obj_property>
+      <obj_property name="ObjectShortName">tb_out_PISO_dreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PISO_dreg/dut1/shift_count" type="array">
+      <obj_property name="ElementShortName">shift_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_count[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PISO_dreg/dut1/in_reg" type="array">
+      <obj_property name="ElementShortName">in_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PISO_dreg/dut1/mux1/sel" type="array">
+      <obj_property name="ElementShortName">sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PISO_dreg/dut1/mux1/mux_16to1_out" type="logic">
+      <obj_property name="ElementShortName">mux_16to1_out</obj_property>
+      <obj_property name="ObjectShortName">mux_16to1_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PISO_dreg/dut1/in_reg" type="array">
+      <obj_property name="ElementShortName">in_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PISO_dreg/dut1/clk_by_16" type="logic">
+      <obj_property name="ElementShortName">clk_by_16</obj_property>
+      <obj_property name="ObjectShortName">clk_by_16</obj_property>
+   </wvobject>
+</wave_config>

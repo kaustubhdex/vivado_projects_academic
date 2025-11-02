@@ -5,14 +5,4 @@ Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.product_module
-Compiling module xil_defaultlib.adder
-Compiling module xil_defaultlib.bit_4_adder
-Compiling module xil_defaultlib.adder_module
-Compiling module xil_defaultlib.multiplier_4bit
-Compiling module xil_defaultlib.tb_multiplier_4bit
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_multiplier_4bit_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
