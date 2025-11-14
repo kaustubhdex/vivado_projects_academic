@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PIPO_4_step.srcs/sources_1/imports/vivado_nit_projects/SISO_4_step/SISO_4_step.srcs/sources_1/new/PIPO_4_step.v" \
+"../../../../PIPO_4_step.srcs/sources_1/imports/new_rtl/nbit_dreg.v" \
+"../../../../PIPO_4_step.srcs/sim_1/imports/PIPO_4_step/tb_PIPO_4_step.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

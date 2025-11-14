@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../rtl_srcs/PISO_dreg.v" \
+"../../../../PISO_dreg.srcs/sources_1/new/mux_8to1.v" \
+"../../../../sim_srcs/tb_PISO_dreg.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
