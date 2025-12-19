@@ -1,0 +1,110 @@
+$date
+   Sun Dec 14 16:29:44 2025
+$end
+$version
+  2022.2
+$end
+$timescale
+  1ps
+$end
+$scope module tb_all_gates $end
+$var reg 1 ! test_a_in $end
+$var reg 1 " test_b_in $end
+$var wire 1 # test_ag_not_out $end
+$var wire 1 $ test_ag_and_out $end
+$var wire 1 % test_ag_or_out $end
+$var wire 1 & test_ag_xor_out $end
+$var wire 1 ' test_ag_nand_out $end
+$var wire 1 ( test_ag_nor_out $end
+$var wire 1 ) test_ag_xnor_out $end
+$scope module tb1 $end
+$var wire 1 * a_in $end
+$var wire 1 + b_in $end
+$var wire 1 # ag_not_out $end
+$var wire 1 $ ag_and_out $end
+$var wire 1 % ag_or_out $end
+$var wire 1 & ag_xor_out $end
+$var wire 1 ' ag_nand_out $end
+$var wire 1 ( ag_nor_out $end
+$var wire 1 ) ag_xnor_out $end
+$scope module dut1 $end
+$var wire 1 * not_in $end
+$var wire 1 # not_out $end
+$upscope $end
+$scope module dut2 $end
+$var wire 1 * and_in_1 $end
+$var wire 1 + and_in_2 $end
+$var wire 1 $ and_out $end
+$upscope $end
+$scope module dut3 $end
+$var wire 1 * or_in_1 $end
+$var wire 1 + or_in_2 $end
+$var wire 1 % or_out $end
+$upscope $end
+$scope module dut4 $end
+$var wire 1 * xor_in_1 $end
+$var wire 1 + xor_in_2 $end
+$var wire 1 & xor_out $end
+$upscope $end
+$scope module dut5 $end
+$var wire 1 * nand_in_1 $end
+$var wire 1 + nand_in_2 $end
+$var wire 1 ' nand_out $end
+$upscope $end
+$scope module dut6 $end
+$var wire 1 * nor_in_1 $end
+$var wire 1 + nor_in_2 $end
+$var wire 1 ( nor_out $end
+$upscope $end
+$scope module dut7 $end
+$var wire 1 * xnor_in_1 $end
+$var wire 1 + xnor_in_2 $end
+$var wire 1 ) xnor_out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+0$
+0%
+0&
+1'
+1(
+1)
+0*
+0+
+$end
+#10000
+1"
+0$
+1%
+1&
+1'
+0(
+0)
+1+
+#20000
+1!
+0"
+0#
+0$
+1%
+1&
+1'
+0(
+0)
+1*
+0+
+#30000
+1"
+1$
+1%
+0&
+0'
+0(
+1)
+1+

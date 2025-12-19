@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_FSM_practice_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_FSM_practice" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="516.320 ns"></ZoomStartTime>
+      <ZoomEndTime time="675.921 ns"></ZoomEndTime>
+      <Cursor1Time time="523.320 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/tb_FSM_practice/tb_clk" type="logic">
+      <obj_property name="ElementShortName">tb_clk</obj_property>
+      <obj_property name="ObjectShortName">tb_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FSM_practice/tb_x" type="logic">
+      <obj_property name="ElementShortName">tb_x</obj_property>
+      <obj_property name="ObjectShortName">tb_x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FSM_practice/tb_y" type="logic">
+      <obj_property name="ElementShortName">tb_y</obj_property>
+      <obj_property name="ObjectShortName">tb_y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FSM_practice/dut0/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+</wave_config>

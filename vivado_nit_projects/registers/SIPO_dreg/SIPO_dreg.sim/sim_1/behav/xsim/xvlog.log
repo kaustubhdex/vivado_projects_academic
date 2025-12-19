@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/registers/SIPO_dreg/rtl_srcs/SIPO_dreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SIPO_dreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/vivado_nit_projects/registers/SIPO_dreg/sim_srcs/tb_SIPO_dreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_SIPO_dreg
