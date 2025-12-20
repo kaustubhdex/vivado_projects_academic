@@ -1,0 +1,20 @@
+Exception at PC 0x00007FFDDA6A95D0
+Attemped to write at address 0x0000000000000000
+Printing stacktrace...
+
+[0] (xsi_trace_all+0x17e90) [0x00007FFDDA6A95D0]
+[1] (xsi_trace_all+0x17e90) [0x00007FFDDA6A95D0]
+[2] (iki_spushz+0x660) [0x00007FFDDA6AB5A0]
+[3] (Scheduler::getSchedulerMap+0x30ac) [0x00007FFDDA5855CC]
+[4] (Scheduler::getSchedulerMap+0x3c4f) [0x00007FFDDA58616F]
+[5]  [0x000000000040173B]
+[6] (xsi_trace_all+0x11bc4) [0x00007FFDDA6A3304]
+[7] (xsi_trace_all+0x10c1b) [0x00007FFDDA6A235B]
+[8] (xsi_trace_all+0xcfc7) [0x00007FFDDA69E707]
+[9] (xsi_trace_all+0xbfed) [0x00007FFDDA69D72D]
+[10] (xsi_trace_all+0xabac) [0x00007FFDDA69C2EC]
+[11] (xsi_trace_all+0xa719) [0x00007FFDDA69BE59]
+[12] (wcsrchr+0x150) [0x00007FFEA79537B0]
+[13] (BaseThreadInitThunk+0x17) [0x00007FFEA8B9E8D7]
+[14] (RtlUserThreadStart+0x2c) [0x00007FFEAA7CC53C]
+Done

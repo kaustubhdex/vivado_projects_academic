@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_soda_dispenser_machine_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_soda_dispenser_machine" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="137.601 ns"></ZoomEndTime>
+      <Cursor1Time time="83.700 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="62"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_soda_dispenser_machine/s" type="array">
+      <obj_property name="ElementShortName">s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_soda_dispenser_machine/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_soda_dispenser_machine/c" type="logic">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_soda_dispenser_machine/d" type="logic">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_soda_dispenser_machine/dut/dut2/total" type="array">
+      <obj_property name="ElementShortName">total[7:0]</obj_property>
+      <obj_property name="ObjectShortName">total[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_soda_dispenser_machine/dut/dut2/tot_ld" type="logic">
+      <obj_property name="ElementShortName">tot_ld</obj_property>
+      <obj_property name="ObjectShortName">tot_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_soda_dispenser_machine/dut/dut2/tot_clr" type="logic">
+      <obj_property name="ElementShortName">tot_clr</obj_property>
+      <obj_property name="ObjectShortName">tot_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_soda_dispenser_machine/dut/dut3/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_soda_dispenser_machine/dut/dut3/tot_lts" type="logic">
+      <obj_property name="ElementShortName">tot_lts</obj_property>
+      <obj_property name="ObjectShortName">tot_lts</obj_property>
+   </wvobject>
+</wave_config>

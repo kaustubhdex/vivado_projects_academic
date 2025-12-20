@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/ddhdl_projects/soda_dispenser_machine/soda_dispenser_machine.srcs/sources_1/imports/rtl_srcs/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/ddhdl_projects/soda_dispenser_machine/soda_dispenser_machine.srcs/sources_1/imports/rtl_srcs/comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/ddhdl_projects/soda_dispenser_machine/soda_dispenser_machine.srcs/sources_1/imports/rtl_srcs/controller_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/ddhdl_projects/soda_dispenser_machine/soda_dispenser_machine.srcs/sources_1/imports/rtl_srcs/datapath_sdm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath_sdm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/ddhdl_projects/soda_dispenser_machine/soda_dispenser_machine.srcs/sources_1/imports/rtl_srcs/soda_dispense_machine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soda_dispense_machine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/ddhdl_projects/soda_dispenser_machine/soda_dispenser_machine.srcs/sim_1/new/tb_soda_dispenser_machine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_soda_dispenser_machine

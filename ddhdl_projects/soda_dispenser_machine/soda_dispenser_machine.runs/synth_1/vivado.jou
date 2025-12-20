@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Dec 19 22:06:34 2025
+# Process ID: 14656
+# Current directory: D:/vivado_project/ddhdl_projects/soda_dispenser_machine/soda_dispenser_machine.runs/synth_1
+# Command line: vivado.exe -log soda_dispense_machine.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source soda_dispense_machine.tcl
+# Log file: D:/vivado_project/ddhdl_projects/soda_dispenser_machine/soda_dispenser_machine.runs/synth_1/soda_dispense_machine.vds
+# Journal file: D:/vivado_project/ddhdl_projects/soda_dispenser_machine/soda_dispenser_machine.runs/synth_1\vivado.jou
+# Running On: Kaustubh-Galaxy-Book, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16847 MB
+#-----------------------------------------------------------
+source soda_dispense_machine.tcl -notrace

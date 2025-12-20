@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/demux_1to8_16b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux_1to8_16b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/hw_task_sch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hw_task_sch
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/hw_task_sch_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hw_task_sch_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/m_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_project/asic_fpga_project/hw_task_sch/sim_srcs/tb_hw_task_sch_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_hw_task_sch_top

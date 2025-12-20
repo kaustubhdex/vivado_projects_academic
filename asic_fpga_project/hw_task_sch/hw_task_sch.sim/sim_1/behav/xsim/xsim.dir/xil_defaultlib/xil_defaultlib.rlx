@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/vivado_project/asic_fpga_project/hw_task_sch/hw_task_sch.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/demux_1to8_16b.v,1763472105,verilog,,D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/hw_task_sch.v,,demux_1to8_16b,,,,,,,,
+D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/hw_task_sch.v,1763472163,verilog,,D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/hw_task_sch_top.v,,hw_task_sch,,,,,,,,
+D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/hw_task_sch_top.v,1763660102,verilog,,D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/m_core.v,,hw_task_sch_top,,,,,,,,
+D:/vivado_project/asic_fpga_project/hw_task_sch/rtl_srcs/m_core.v,1763490029,verilog,,D:/vivado_project/asic_fpga_project/hw_task_sch/sim_srcs/tb_hw_task_sch_top.v,,m_core,,,,,,,,
+D:/vivado_project/asic_fpga_project/hw_task_sch/sim_srcs/tb_hw_task_sch_top.v,1763489419,verilog,,,,tb_hw_task_sch_top,,,,,,,,

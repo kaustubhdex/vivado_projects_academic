@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../soda_dispenser_machine.srcs/sources_1/imports/rtl_srcs/adder.v" \
+"../../../../soda_dispenser_machine.srcs/sources_1/imports/rtl_srcs/comparator.v" \
+"../../../../soda_dispenser_machine.srcs/sources_1/imports/rtl_srcs/controller_fsm.v" \
+"../../../../soda_dispenser_machine.srcs/sources_1/imports/rtl_srcs/datapath_sdm.v" \
+"../../../../soda_dispenser_machine.srcs/sources_1/imports/rtl_srcs/soda_dispense_machine.v" \
+"../../../../soda_dispenser_machine.srcs/sim_1/new/tb_soda_dispenser_machine.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

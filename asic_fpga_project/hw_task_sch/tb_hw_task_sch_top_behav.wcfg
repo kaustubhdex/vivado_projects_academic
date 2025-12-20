@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_hw_task_sch_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_hw_task_sch_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="136.801 ns"></ZoomEndTime>
+      <Cursor1Time time="60.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_hw_task_sch_top/tb_clk" type="logic">
+      <obj_property name="ElementShortName">tb_clk</obj_property>
+      <obj_property name="ObjectShortName">tb_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hw_task_sch_top/tb_rst" type="logic">
+      <obj_property name="ElementShortName">tb_rst</obj_property>
+      <obj_property name="ObjectShortName">tb_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hw_task_sch_top/tb_in_instr" type="array">
+      <obj_property name="ElementShortName">tb_in_instr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_in_instr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hw_task_sch_top/tb_out_allot" type="array">
+      <obj_property name="ElementShortName">tb_out_allot[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_out_allot[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hw_task_sch_top/tb_core_stat" type="array">
+      <obj_property name="ElementShortName">tb_core_stat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_core_stat[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hw_task_sch_top/tb_core_cnt" type="array">
+      <obj_property name="ElementShortName">tb_core_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_core_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hw_task_sch_top/dut0/hts_0/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hw_task_sch_top/dut0/hts_0/out_allot" type="logic">
+      <obj_property name="ElementShortName">out_allot</obj_property>
+      <obj_property name="ObjectShortName">out_allot</obj_property>
+   </wvobject>
+</wave_config>

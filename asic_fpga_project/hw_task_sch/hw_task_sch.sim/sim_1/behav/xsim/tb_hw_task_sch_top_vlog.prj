@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../rtl_srcs/demux_1to8_16b.v" \
+"../../../../rtl_srcs/hw_task_sch.v" \
+"../../../../rtl_srcs/hw_task_sch_top.v" \
+"../../../../rtl_srcs/m_core.v" \
+"../../../../sim_srcs/tb_hw_task_sch_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
